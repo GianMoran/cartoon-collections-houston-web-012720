@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(array_of_calls)
  
- array_of_calls.map do |word|
+ array_of_calls.find do |word|
    if word.length > 4 
      true
    else
