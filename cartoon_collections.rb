@@ -14,9 +14,9 @@ end
 
 def long_planeteer_calls(array_of_calls)
  
- array_of_calls.any? do |word|
+ array_of_calls.each do |word|
    binding.pry
-   false if word.length < 4
+   false if word.length < 4?
  end
   
 end
