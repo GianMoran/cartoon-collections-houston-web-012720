@@ -25,9 +25,10 @@ def find_the_cheese(name)
   
   cheese_types.find do |cheese|
     binding.pry
-    cheese_types.include?(cheese)
+   return cheese cheese_types.include?(cheese)
+   
   end
   
   
-  
+  return nil
 end
